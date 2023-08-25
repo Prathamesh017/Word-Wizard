@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: #13253a;
+  color: #f6f7fa;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.color-yellow {
+  color: #ffd700;
+}
+.border-box {
+  border: 1px solid #ffd700;
+}
