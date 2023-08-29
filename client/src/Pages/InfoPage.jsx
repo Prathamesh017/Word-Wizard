@@ -1,5 +1,5 @@
 import Header from '../Components/Header'
-import Level from '../Components/level'
+import Level from '../Components/Level'
 function InfoPage() {
   return (
     <div className="p-4">
