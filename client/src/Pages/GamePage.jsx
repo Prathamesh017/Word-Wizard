@@ -3,7 +3,7 @@ import Header from '../Components/Header'
 function GamePage() {
   return (
     <div className="p-4">
-      <Header></Header>
+      <Header show={true}></Header>
       <Game></Game>
     </div>
   )

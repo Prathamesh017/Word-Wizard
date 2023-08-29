@@ -1,8 +1,11 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
+
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+
+   getHello():string{
+
+    return 'Welcome To Guess The Word Game';
   }
 }

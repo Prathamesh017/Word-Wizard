@@ -3,7 +3,7 @@ import Form from '../Components/Form'
 function HomePage() {
   return (
     <div className="p-4">
-      <Header></Header>
+      <Header show={false}></Header>
       <Form></Form>
     </div>
   )
